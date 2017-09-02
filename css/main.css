@@ -1,0 +1,23 @@
+section.above-fold {
+	background-color: #18BC9C;
+}
+
+.top {
+	background-color: #2C3E50;
+	height: 8em;
+}
+
+.top h1 {
+	color: #FFF;
+	padding: 1em 0 0 1em;
+}
+
+.top li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 3em 3em 0 0;
+}
+
+.top li a:hover {
+	color: #18BC9C;
+}
