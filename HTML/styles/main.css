@@ -1559,18 +1559,16 @@ html[style*='margin-right'] .main-nav {
   padding-bottom: 0;
 }
 
-.services {
+.qualities {
   text-align: center;
 }
 
-.services h3 {
+.qualities h3 {
   margin-bottom: 15px;
 }
 
-.services .fa-3x,
-.services .fa-4x,
-.services .fa-5x {
-  color: #FB544D;
+.qualities .fa {
+  color: #FFF;
 }
 
 .bars,
