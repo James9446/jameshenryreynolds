@@ -1772,13 +1772,13 @@ html[style*='margin-right'] .main-nav {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
-/*.works .works-item .works-item-link .works-item-thumb img {
-  padding-top: 10px;
-  padding-right: 10px;
+.works .works-item .works-item-link .works-item-thumb img {
+  padding-top: 40px;
+ /* padding-right: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 10px;*/
 
-}*/
+}
 .works .works-item .works-item-link:before {
   content: 'More';
   position: absolute;
