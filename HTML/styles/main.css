@@ -1780,7 +1780,6 @@ html[style*='margin-right'] .main-nav {
 
 }
 .works .works-item .works-item-link:before {
-  content: 'More';
   position: absolute;
   left: 0;
   top: 0;
@@ -1794,6 +1793,30 @@ html[style*='margin-right'] .main-nav {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   text-align: center;
+}
+
+.works .works-item .project1:before {
+  content: "George's Zoo Deli";
+}
+
+.works .works-item .project2:before {
+  content: "Colorful Flat";
+}
+
+.works .works-item .project3:before {
+  content: "Orange Juice";
+}
+
+.works .works-item .project4:before {
+  content: "Pico";
+}
+
+.works .works-item .project5:before {
+  content: "Matrix Tic Tac Toe";
+}
+
+.works .works-item .project6:before {
+  content: "Strict Design";
 }
 
 .works .works-item .works-item-link img {
