@@ -975,6 +975,11 @@ html[style*='margin-right'] .main-nav {
   color: #FB544D;
 }
 
+/* Altering size of social nav icon links */
+.social-nav .fa {
+  font-size: 30px;
+}
+
 .tags {
   text-align: center;
   padding: 15px 100px 0;
