@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="James Reynolds - jameshenryreynolds.com - Codify Academy">
+		<meta name = "description" content="Matrix Tic Tac Toe game created by James Reynolds with the Minimax Algorithm">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- favicon 
+		<link rel="shortcut icon" href="img/favicon.ico">
+		-->
+		<script src="https://use.fontawesome.com/56195776e3.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<title>Matrix Tic Tac Toe</title>
+	</head>
+
+	<body>
+
+		<table class="animated zoomInUp">
+			<tr>
+				<td class="cell" id="0"></td>
+				<td class="cell" id="1"></td>
+				<td class="cell" id="2"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="3"></td>
+				<td class="cell" id="4"></td>
+				<td class="cell" id="5"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="6"></td>
+				<td class="cell" id="7"></td>
+				<td class="cell" id="8"></td>
+			</tr>
+		</table>
+
+		<div class="endgame animated zoomInUp">
+			<div class="text"></div>
+			<button onClick="startGame()">Take another red pill?</button>
+		</div>		
+
+		<canvas id="c"></canvas>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/matrix.js"></script>
+	</body>
+</html>

@@ -951,6 +951,34 @@ html[style*='margin-right'] .main-nav {
   margin: 0 0 10px;
 }
 
+/* ----==== Changing 'About' image - Adding animation ===--- */
+.image-swap-container {
+  height: 300px;
+    width: 300px;
+}
+
+.image-swap {
+    background-repeat: no-repeat;
+    background-image: url("../images/james-shucking.jpg");
+    background-size: 300px 300px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    transform: none;
+    transition: transform 0.5s, background-image 1s;
+}
+
+.image-swap-container:hover {
+    cursor: default;
+}
+
+.image-swap-container:hover .image-swap {
+    background: url("../images/me-at-google.jpg");
+    background-size: 300px 300px;
+    transform: rotateY(360deg);
+}
+/* ----==== /End Changing 'About' image - Adding animation ===--- */
+
 .social-nav {
   padding: 0;
   list-style: none;
@@ -1190,6 +1218,7 @@ html[style*='margin-right'] .main-nav {
   opacity: 1;
 }
 
+/* Added transition effect rules to existing class rules */
 .icon-b {
   position: relative;
   display: inline-block;
@@ -1202,6 +1231,8 @@ html[style*='margin-right'] .main-nav {
   line-height: 70px;
   text-align: center;
   color: #FB544D;
+  transform: none;
+  transition: transform 1s
 }
 
 .icon-b:before {
@@ -1218,6 +1249,21 @@ html[style*='margin-right'] .main-nav {
       -ms-transform: translate(-50%, -50%) rotate(45deg);
           transform: translate(-50%, -50%) rotate(45deg);
 }
+
+/*----==== Added hover & transition effects====---- */
+.col .icon-b:hover {
+  color: #FFF;
+  transform: rotateY(180deg);
+}
+
+.col .icon-b:hover .fa {
+  color: #FB544D;
+}
+
+.col:hover h3 {
+  color: #FB544D;
+}
+/*----==== /End Added hover effects====---- */
 
 .icon-b .fa {
   position: relative;
